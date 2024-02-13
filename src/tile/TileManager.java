@@ -57,7 +57,7 @@ public class TileManager {
     public void getTypeImage() {
         try {
             //get folder size
-            File tilesFolder = new File("D:\\game-development\\My2DGame\\res\\tiles");
+            File tilesFolder = new File("D:\\game-development\\2DTreasureHuntingGame\\res\\tiles");
             int tileSize = tilesFolder.list().length;
             int[] tileCollisionList = {0, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30};
             //add tiles from folder
